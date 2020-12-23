@@ -272,7 +272,7 @@ EOF
 ```
 
 
-### 5. Then Navigate to https://<LoadBalancer IP>/ and start using Kubeflow
+### 5. Then Navigate to https://LoadBalancer IP/ and start using Kubeflow
 You need to create namespace at first login. 
 
 
@@ -377,7 +377,9 @@ kubectl create --namespace=istio-system rolebinding \
 Envoy filter to inject the kubeflow-userid header from notebook to ml-pipeline service. 
 
 additional info
+
 https://www.kubeflow.org/docs/pipelines/sdk/sdk-overview/
+
 https://github.com/kubeflow/pipelines/issues/4440
 
 ```
